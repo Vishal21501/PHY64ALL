@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHY64ALL - Physics Solver</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 4rem;
+            background: linear-gradient(135deg, #6C63FF, #00D4FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #A0A0C0;
+            margin-bottom: 30px;
+        }
+        .loading {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: #6C63FF;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .note {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #6C63FF;
+        }
+        a {
+            color: #6C63FF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚛️ PHY64ALL</h1>
+        <p class="subtitle">Multi-Agent Physics Solver</p>
+        <div class="loading"></div>
+        <p class="note">
+            ⏳ Loading the application...<br>
+            If you're not redirected automatically, 
+            <a href="#" onclick="window.location.href='https://https://phy64all-backend-f7xpxtjqda-el.a.run.app'">click here</a>
+        </p>
+    </div>
+</body>
+</html>
